@@ -6,6 +6,21 @@ This repo includes backup for my OpenWRT router configuration. This will send re
 
 
 
+## Tool
+
+[Flashable image with custom packages built with tool](https://firmware-selector.openwrt.org/)
+
+
+## Packages
+
+Remove `curl` if using `uclient-fetch` else remove `uclient-fetch` and use `curl`.
+
+#### Other packages:
+
+`base-files busybox ca-bundle dnsmasq dropbear firewall4 fstools kmod-gpio-button-hotplug kmod-leds-gpio kmod-mt7603 kmod-mt76x0e kmod-nft-offload libc libgcc libustream-wolfssl logd mtd netifd nftables odhcp6c odhcpd-ipv6only opkg ppp ppp-mod-pppoe procd procd-seccomp procd-ujail swconfig uci uclient-fetch urandom-seed urngd wpad-basic-wolfssl luci tcpdump-mini msmtp adblock luci-app-adblock`
+
+
+
 ## Disclaimer
 
 I'm not responsible for bricked devices, dead routers. 
@@ -14,6 +29,3 @@ YOU are choosing to make these modifications, and if you point the finger at me 
 Your warranty will be void if you tamper with any part of your device / software.
 
 
-## Tool
-
-[Flashable image with custom packages built with tool](https://firmware-selector.openwrt.org/)
