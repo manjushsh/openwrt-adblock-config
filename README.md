@@ -1,7 +1,7 @@
 
 # Backup for OpenWRT configuration
 
-This repo includes backup for my OpenWRT router configuration. This will send report @12PM and 7PM and stores json to Amazon S3.
+This repo includes backup for OpenWRT router configuration. This will send report @12PM and 7PM and stores json to Amazon S3.
 
 
 
