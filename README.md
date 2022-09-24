@@ -13,7 +13,7 @@ This repo includes backup for OpenWRT router configuration. This will send repor
 
 ## Packages
 
-Remove `curl` if using `uclient-fetch` else remove `uclient-fetch` and use `curl`.
+`curl` is optional.
 
 #### Other packages:
 
